@@ -21,9 +21,12 @@ const Hero = () => {
         priority={true}
         quality={90}
         objectFit="cover"
-        alt="Photo by @thevoncomplex https://unsplash.com/@thevoncomplex"
+        alt="Siete Diez Glass"
         className="absolute inset-0"
         draggable="false"
+        style={{
+          opacity: 0.7
+        }}
       />
     </div>
   )
